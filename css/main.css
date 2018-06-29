@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel:400|Roboto+Condensed:400,400italic|Roboto+Slab:400,400italic");
+
+body {
+  position: relative;
+  height: 500vh;
+  margin: 0;
+  font-family: Roboto Slab;
+}
+
+section {
+  position: relative;
+  box-sizing: content-box;
+  z-index: 0;
+}
+
+.splash {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: cover;
+  background-color: #369;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+}
+
+.content {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  padding: 0 0 25vh 0;
+  box-sizing: border-box;
+}
+
+section:last-child .content {
+  min-height: 100vh;
+}
+
+.info {
+  margin: 0 0 64px 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0 0 64px 0;
+  font-family: "Cinzel";
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 5rem;
+  color: #fff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.quote {
+  display: block;
+  position: relative;
+  clear: both;
+  margin: 32px 0;
+  padding: 36px 16px 8px 16px;
+  width: 400px;
+  color: #111;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.quote p {
+  margin: 0;
+}
+
+.quote p:last-child:after {
+  display: block;
+  padding-left: 4px;
+  /*color: #c36;*/ color: transparent;
+  content: "✓";
+  text-align: right;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+
+.quote:nth-child(odd) {
+  float: right;
+}
+
+.quote > .author {
+  position: absolute;
+  display: inline-block;
+  top: -18px;
+  padding: 8px;
+  background-color: #f69;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.quote:nth-child(even) > .author {
+  left: -24px;
+}
+
+.quote:nth-child(odd) > .author {
+  right: -24px;
+}
+
+.big1 {
+  font-size: 1.25em;
+}
+
+.big2 {
+  font-size: 1.5em;
+}
