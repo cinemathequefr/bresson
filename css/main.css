@@ -20,7 +20,11 @@ section {
   background-repeat: no-repeat;
   background-position: 50% 0%;
   background-size: cover;
-  background-color: #369;
+  /*background-color: #369;*/
+}
+
+section.general .splash {
+  background-color: #9cc;
 }
 
 .overlay {
@@ -51,6 +55,7 @@ section:last-child .content {
   font-size: 1.25rem;
   text-shadow: 1px 1px 2px #000;
 }
+
 
 .row {
   position: relative;
@@ -118,6 +123,10 @@ section:last-child .content {
 
 .quote:nth-child(odd) > .author {
   right: -24px;
+}
+
+.small {
+  font-size: 0.875em;
 }
 
 .big1 {

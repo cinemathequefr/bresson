@@ -56,12 +56,6 @@ function main() {
       duration: title
     })
       .setPin(title, { pushFollowers: false })
-      // .addIndicators({
-      //   indent: 100,
-      //   colorStart: "pink",
-      //   colorTrigger: "pink",
-      //   colorEnd: "pink"
-      // })
       .addTo(ctrl);
   });
 
