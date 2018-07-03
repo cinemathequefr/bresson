@@ -27,8 +27,8 @@ function main() {
           TweenMax.fromTo(
             section.elOverlay,
             1,
-            { opacity: 0.75 },
-            { opacity: 0.15, ease: Power4.easeOut }
+            { opacity: 0.65 },
+            { opacity: 0.2, ease: Power4.easeOut }
           ),
           TweenMax.fromTo(
             section.elTitle,
@@ -63,7 +63,7 @@ function main() {
     new ScrollMagic.Scene({
       triggerElement: quote,
       triggerHook: 0.25,
-      offset: $(quote).height() / 2,
+      offset: $(quote).height() * 0.75,
       duration: "50%"
     })
       .setTween(

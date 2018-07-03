@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Cinzel:400|Roboto+Condensed:400,400italic|Roboto+Slab:300,300italic,400,400italic");
+@import url("https://fonts.googleapis.com/css?family=Cinzel:400|Roboto+Condensed:400,400italic|Roboto+Slab:400,400italic");
 
 body {
   position: relative;
@@ -49,9 +49,9 @@ section:last-child .content {
 }
 
 .info {
-  margin: 0 0 64px 0;
+  margin: 160px 0 128px 0;
   color: #fff;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.25rem;
   text-shadow: 1px 1px 2px #000;
 }
@@ -61,7 +61,7 @@ section:last-child .content {
   position: relative;
   width: 100%;
   max-width: 700px;
-  margin: 0 auto;
+  padding-top: 16px; margin: 0 auto;
 }
 
 .title {
@@ -135,4 +135,8 @@ section:last-child .content {
 
 .big2 {
   font-size: 1.5em;
+}
+
+.big3 {
+  font-size: 2em;
 }
