@@ -63,6 +63,7 @@ function main() {
     new ScrollMagic.Scene({
       triggerElement: quote,
       triggerHook: 0.25,
+      offset: $(quote).height() / 2,
       duration: "50%"
     })
       .setTween(
